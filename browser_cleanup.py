@@ -2,8 +2,6 @@
 """
 Browser Process Cleanup Script
 Purpose: Kill only Chrome browser processes while preserving Playwright Node.js server
-Author: KITEAI System
-Created: 2025-01-22
 
 CRITICAL: This script kills ONLY browser processes, NOT the Playwright MCP server processes.
 This allows browser cleanup without breaking the Playwright connection.
